@@ -1,0 +1,54 @@
+/* site.css */
+
+/* Header styling */
+header {
+    background-color: #f8f9fa; 
+    padding: 20px 0; 
+}
+
+.navbar-brand {
+    font-weight: bold; 
+}
+
+/* Main content styling */
+main {
+    padding: 20px; 
+}
+
+h1 {
+    margin-bottom: 20px; 
+}
+
+/* Form styling */
+#searchOption, #category {
+    padding: 8px; 
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; 
+    border-radius: 4px; 
+}
+
+/* Product container styling */
+#products {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.product {
+    border: 1px solid #ced4da; 
+    border-radius: 4px; 
+    padding: 10px; 
+    width: calc(33.33% - 20px); 
+}
+
+.product-details {
+    margin-top: 10px; 
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+}
