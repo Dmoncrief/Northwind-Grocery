@@ -97,7 +97,7 @@ function clearProductDetails() {
 }
 
 
-let newApi = data.properties.forecast;
+let newApi = data.properties.products;
 fetch(newApi)
   .then((response) => response.json())
   .then((data) => {
