@@ -94,7 +94,7 @@ function clearProductDetails() {
     container.innerHTML = '';
 }
 
-// make table for product view
+// make table for product
 let newApi = data.properties.products;
 fetch(newApi)
   .then((response) => response.json())
