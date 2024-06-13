@@ -1,6 +1,6 @@
 "use strict";
 
-function displayProductsByCategory(category) {
+function displayProductByCategory(category) {
     document.getElementById("products").innerHTML = "";
 
     // Filter products by category
@@ -40,7 +40,7 @@ function displayProductsByCategory(category) {
 // Event listener for category selection change
 document.getElementById("category").addEventListener("change", function() {
     const selectedCategory = this.value;
-    displayProductsByCategory(selectedCategory);
+    displayProductByCategory(selectedCategory);
 });
 
 function productSelection(selectedProductName) {
