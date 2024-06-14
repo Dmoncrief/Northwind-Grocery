@@ -34,14 +34,13 @@ if (urlParams.has('productId')) {
 }
 
 function displayProductDetails(prod){
-    // you decide how you want the page to be styled
-    //but for now...
+    
 
     let name = document.createElement("h1");
     name.innerHTML = prod.productName;
 
     let img = document.createElement("img");
-    img.src = "images/shopping_10.jpg"
+    img.src = "images/fruit_grocery.jpg"
 
     detailsDiv.appendChild(name);
     detailsDiv.append(img);
